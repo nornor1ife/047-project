@@ -1,0 +1,45 @@
+/* style สำหรับ body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0d7f7;
+    color: #9d6ec9; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* style สำหรับ header */
+header {
+    background-color: #8347bb; 
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+}
+
+/* style สำหรับ h1 */
+h1 {
+    color: #fcf0ff; 
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* style สำหรับ main และ p */
+main {
+    margin-top: 30px;
+    background-color: #af6de6; 
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(151, 86, 170, 0.541);
+}
+
+p {
+    font-size: 1.2rem;
+    color: #1f2f46; /* ฟ้าคล้ำ */
+    margin: 0;
+}
